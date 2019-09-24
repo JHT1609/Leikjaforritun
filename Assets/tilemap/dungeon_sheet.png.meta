@@ -54,6 +54,7 @@ TextureImporter:
     21300098: stone3
     21300100: stone4
     21300102: plane_wall
+    21300104: dungeon_sheet_0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -621,7 +622,7 @@ TextureImporter:
         serializedVersion: 2
         x: 84
         y: 101
-        width: 9
+        width: 8
         height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -639,9 +640,9 @@ TextureImporter:
       name: left_bottum_corner
       rect:
         serializedVersion: 2
-        x: 115
+        x: 116
         y: 101
-        width: 9
+        width: 8
         height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -659,10 +660,10 @@ TextureImporter:
       name: top_left_corner
       rect:
         serializedVersion: 2
-        x: 115
+        x: 116
         y: 120
-        width: 9
-        height: 32
+        width: 8
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -681,8 +682,8 @@ TextureImporter:
         serializedVersion: 2
         x: 84
         y: 121
-        width: 9
-        height: 31
+        width: 8
+        height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -699,9 +700,9 @@ TextureImporter:
       name: front_wall
       rect:
         serializedVersion: 2
-        x: 93
+        x: 92
         y: 130
-        width: 22
+        width: 24
         height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -719,9 +720,9 @@ TextureImporter:
       name: big_back_wall
       rect:
         serializedVersion: 2
-        x: 93
+        x: 92
         y: 101
-        width: 22
+        width: 24
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1171,6 +1172,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d5d2ac92b404a7d4490828ac12c6996c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 114
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4a4cd55cb4b684d81c1aaca652d0f2
       vertices: []
       indices: 
       edges: []
