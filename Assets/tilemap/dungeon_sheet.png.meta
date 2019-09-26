@@ -164,9 +164,9 @@ TextureImporter:
       name: big_gate_open3
       rect:
         serializedVersion: 2
-        x: 144
+        x: 145
         y: 1
-        width: 49
+        width: 47
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -185,9 +185,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 97
-        y: 0
+        y: 1
         width: 47
-        height: 23
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,9 +204,9 @@ TextureImporter:
       name: big_gate_open1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 49
         y: 1
-        width: 49
+        width: 47
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -224,9 +224,9 @@ TextureImporter:
       name: big_gate_idle
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 1
-        width: 48
+        width: 47
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
