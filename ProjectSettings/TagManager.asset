@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - golf
+  - big_gate
+  - stone_wtih_sword
   layers:
   - Default
   - TransparentFX
@@ -24,7 +26,7 @@ TagManager:
   - 
   - 
   - armor and stone
-  - 
+  - door
   - 
   - 
   - 
