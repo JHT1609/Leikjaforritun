@@ -39,8 +39,30 @@ public class levelcontroler : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        animator.SetTrigger("doorisopen");
-        Debug.Log("open door");
+        if (other.CompareTag("Player"))
+        {
+            animator.Play("big_gate_open");
+            animator.SetBool("OpenGate", true);
+            Debug.Log("open gate");
+        }
+        if (other.CompareTag("Player"))
+        {
+            animator.Play("hruð_opnar");
+            animator.SetBool("HurdOpnar", true);
+            Debug.Log("open door");
+        }
+       
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        animator.Play("big_gate_close");
+        animator.SetBool("OpenGate", false);
+        Debug.Log("close gate");
+
+        animator.Play("hurð_lokar");
+        animator.SetBool("HurdOpnar", false);
+        Debug.Log("close door");
     }
 
 }
