@@ -7,6 +7,7 @@ public class levelcontroler : MonoBehaviour
 {
     public int index;
     public string levelName;
+    public Animator animator;
 
     private void OnTriggerStay2D(Collider2D other)
     {
@@ -24,17 +25,22 @@ public class levelcontroler : MonoBehaviour
     }
 
     // Start is called before the first frame update
+
     void Start()
     {
-
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
 
+    }
 
-
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        animator.SetTrigger("doorisopen");
+        Debug.Log("open door");
     }
 
 }
