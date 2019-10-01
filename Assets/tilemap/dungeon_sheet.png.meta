@@ -59,6 +59,7 @@ TextureImporter:
     21300108: dungeon_sheet_2
     21300110: dungeon_sheet_3
     21300112: dungeon_sheet_4
+    21300114: stone_with_sword
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -826,7 +827,7 @@ TextureImporter:
         serializedVersion: 2
         x: 96
         y: 112
-        width: 16
+        width: 18
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1276,6 +1277,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6b70328560c1080439a001cbde1e8489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_with_sword
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 51
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618a9bda234d7e844ba022a0c3cd94ce
       vertices: []
       indices: 
       edges: []
