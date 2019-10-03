@@ -51,7 +51,13 @@ public class levelcontroler : MonoBehaviour
             animator.SetBool("HurdOpnar", true);
             Debug.Log("open door");
         }
-       
+        if (other.CompareTag("Player"))
+        {
+            animator.Play("big_gate_no_background_open");
+            animator.SetBool("OpenGate2", true);
+            Debug.Log("gate2 opnar");
+        }
+
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -63,6 +69,10 @@ public class levelcontroler : MonoBehaviour
         animator.Play("hurð_lokar");
         animator.SetBool("HurdOpnar", false);
         Debug.Log("close door");
+
+        animator.Play("big_gate_no_background_close");
+        animator.SetBool("OpenGate2", false);
+        Debug.Log("gate2 close");
     }
 
 }

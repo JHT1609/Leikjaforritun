@@ -2,66 +2,52 @@ fileFormatVersion: 2
 guid: b43b5550d9b3bea4ba5c48b73062641a
 TextureImporter:
   fileIDToRecycleName:
-    21300000: big_gate_open4
-    21300002: big_gate_open3
-    21300004: big_gate_open2
-    21300006: big_gate_open1
-    21300008: big_gate_idle
-    21300010: door_idle
-    21300012: door_open1
-    21300014: door_open2
-    21300016: door_open3
-    21300018: kista_idle
-    21300020: kista_open1
-    21300022: kista_open2
-    21300024: kista_open3
-    21300026: kista_open4
-    21300028: kista_open5
-    21300030: takki_1_off
-    21300032: takki_2_off
-    21300034: takki_3
-    21300036: takki_4
-    21300038: takki_5
-    21300040: takki_6
-    21300042: takki_7_on
-    21300044: small_back_wall
-    21300046: big_front_wall
-    21300048: right_bottum_corner
-    21300050: left_bottum_corner
-    21300052: top_left_corner
-    21300054: top_right_corner
-    21300056: front_wall
-    21300058: big_back_wall
-    21300060: right_bottum_corner_2
-    21300062: left_bottum_corner_2
-    21300064: right_top_corner_2
-    21300066: left_top_corner_2
-    21300068: golf
-    21300070: small_front_wall_to_hole
-    21300072: big_front_wall_to_hole
-    21300074: big_rightSide_wall_to_hole
-    21300076: small_rightSide_wall_to_hole
-    21300078: big_back_wall_to_hole
-    21300080: small_back_wall_to_hole
-    21300082: big_leftSide_wall_to_hole
-    21300084: small_leftSide_wall_to_hole
-    21300086: piller
-    21300088: left_long_wall_and_piller
-    21300090: right_long_wall_and_piller
-    21300092: armor
-    21300094: stone1
-    21300096: stone2
-    21300098: stone3
-    21300100: stone4
-    21300102: plane_wall
-    21300104: dungeon_sheet_0
-    21300106: dungeon_sheet_1
-    21300108: dungeon_sheet_2
-    21300110: dungeon_sheet_3
-    21300112: dungeon_sheet_4
-    21300114: stone_with_sword
-    21300116: dungeon_sheet_5
-    21300118: dungeon_sheet_6
+    21300000: piller
+    21300002: stone1
+    21300004: stone2
+    21300006: stone3
+    21300008: stone4
+    21300010: armor
+    21300012: door_idle
+    21300014: door_open_1
+    21300016: door_open_2
+    21300018: door_open_3
+    21300020: big_gate_open_4
+    21300022: big_gate_open_3
+    21300024: big_gate_open_2
+    21300026: big_gate_open_1
+    21300028: big_gate_idle
+    21300030: big_gate2_idle
+    21300032: big_gate2_open_1
+    21300034: big_gate2_open_2
+    21300036: big_gate2_open_3
+    21300038: big_gate2_open_4
+    21300040: big_front_wall
+    21300042: golf
+    21300044: right_bottum_corner
+    21300046: left_bottum_corner
+    21300048: small_back_wall_to_hole
+    21300050: big_back_wall_to_hole
+    21300052: small_back_wall
+    21300054: big_back_wall
+    21300056: big_front_wall_to_hole
+    21300058: big_leftSide_wall_to_hole
+    21300060: small_leftSide_wall_to_hole
+    21300062: big_rightSide_wall_to_hole
+    21300064: dungeon_sheet_1
+    21300066: dungeon_sheet_5
+    21300068: dungeon_sheet_6
+    21300070: front_wall
+    21300072: left_bottum_corner_2
+    21300074: left_long_wall_and_piller
+    21300076: left_top_corner_2
+    21300078: right_bottum_corner_2
+    21300080: right_long_wall_and_piller
+    21300082: right_top_corner_2
+    21300084: small_rightSide_wall_to_hole
+    21300086: top_left_corner
+    21300088: top_right_corner
+    21300090: stone_with_sword
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -100,7 +86,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -123,7 +109,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -144,871 +130,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: big_gate_open4
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 1
-        width: 47
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd8baa4f439acff438466fe780971d9d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: big_gate_open3
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 1
-        width: 47
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 634392ff27cbb814aad7894afeb35976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: big_gate_open2
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 1
-        width: 47
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a757b94723d043443b1d7331df3076f5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: big_gate_open1
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 1
-        width: 47
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 931592c5feedb7d49bc1968385976747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: big_gate_idle
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 47
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f0be2b62f14f0443bc0ee0f9f68cf2e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_idle
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 34
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8df9a4dc67678d845a7f776b08417be5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_open1
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 34
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc7bc3ca91361574ca87a9815d546627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_open2
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 34
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce52d82ed6b3eab46b6d54272b807668
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_open3
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 34
-        width: 17
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44f09841b04136d438dcad467d359f4a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kista_idle
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 32
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e40addcbadda76140b2fce5d6da76535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kista_open1
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 32
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48f3f29f539f2e04994fbbe1b458bd71
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kista_open2
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 32
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d557ef8229b4c9e4c80149e8603464fd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kista_open3
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 32
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b4c19c08a3bc294f995c82f21e36c45
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kista_open4
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 32
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64d0f8f610fd5394b8691c82566ebdfc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kista_open5
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 32
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76d95946a44fa98468495a2c70acc7d8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: takki_1_off
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 65
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c35baf06461ead4439b3e6d464a55215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: takki_2_off
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 65
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 15de68b707a90c74c926720a84327777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: takki_3
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 65
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9439a5fe66bede449e3c0b9ce82fdff
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: takki_4
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 65
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea4181f2c35751444a1680ce75036e68
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: takki_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 65
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef7b6495058b1d14f962bbcf2a44dafe
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: takki_6
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 65
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4fca769efadc3247b6b0a3c447b100c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: takki_7_on
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 65
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9335a435d5ea7a34c8198f38705c53d2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: small_back_wall
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 64
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63679fde13f069449857d082a059aa92
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: big_front_wall
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 65
-        width: 32
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff23de3932135ea40a218404c77bfe91
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: right_bottum_corner
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 101
-        width: 12
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2fcfe361c210d74b979035c46093032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: left_bottum_corner
-      rect:
-        serializedVersion: 2
-        x: 116
-        y: 101
-        width: 12
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0eef538e50e6985439e483b54b649f34
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: top_left_corner
-      rect:
-        serializedVersion: 2
-        x: 116
-        y: 120
-        width: 12
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1207ca9a268ae7941a6b816af95ac5eb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: top_right_corner
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 121
-        width: 12
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 374445c77c484384d8283e502d1d6976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: front_wall
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 130
-        width: 24
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03bbfeb68aa7bc042aaa53ac8ac55934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: big_back_wall
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 101
-        width: 24
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87a5222656534664c9c869e1fd87c311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: right_bottum_corner_2
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 97
-        width: 12
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbea7791dde724745972c98530944c3f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: left_bottum_corner_2
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 97
-        width: 14
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a73815a133c21e4c90233302e4dc1fd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: right_top_corner_2
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 129
-        width: 12
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f9873461b695824898fda16e541c71d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: left_top_corner_2
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 129
-        width: 14
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6574a952ae633e49ac41988772f2e30
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golf
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 112
-        width: 18
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30a9e33db4ab1a145a95fda493549ad3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: small_front_wall_to_hole
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 153
-        width: 17
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 542a3298364b2e74f8e480fb1c350f12
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: big_front_wall_to_hole
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 153
-        width: 30
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 527eb2561b02b974cbada7c4eb3801f7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: big_rightSide_wall_to_hole
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 131
-        width: 3
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 686a94f2b5ab5b34db7bc6a51877d23e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: small_rightSide_wall_to_hole
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 116
-        width: 3
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c2154d551ad199419409e51d1937d0a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: big_back_wall_to_hole
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 112
-        width: 30
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ab9544f2d71226419cb422c4c73147a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: small_back_wall_to_hole
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 112
-        width: 17
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d0809d1cf48df040b617277d487382f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: big_leftSide_wall_to_hole
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 131
-        width: 3
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e48fc876de81e84aa8b2f5a9b9faf17
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: small_leftSide_wall_to_hole
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 116
-        width: 3
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00794f44c3410ed4799f7456cb7ff08d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: piller
       rect:
         serializedVersion: 2
         x: 36
-        y: 84
+        y: 124
         width: 10
         height: 23
       alignment: 0
@@ -1018,67 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f5317a2517113a42a3b1e353c99b0bb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: left_long_wall_and_piller
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 80
-        width: 8
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72aee6cb7ab90ed4a98f33620d762ced
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: right_long_wall_and_piller
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 80
-        width: 10
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ba35df689fe6714c8c2a2bff7214ba3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: armor
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 32
-        width: 12
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fe87644e7c3c254cb224b8b4668580d
+      spriteID: ba8693dc9db94e54fbdfea6b186cb282
       vertices: []
       indices: 
       edges: []
@@ -1088,7 +154,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 244
-        y: 36
+        y: 76
         width: 9
         height: 8
       alignment: 0
@@ -1098,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eda86c0d303bf1c49ab49f16eb19299f
+      spriteID: 6752d585c9e966b4d8487ce8106f6264
       vertices: []
       indices: 
       edges: []
@@ -1108,7 +174,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 259
-        y: 36
+        y: 76
         width: 11
         height: 8
       alignment: 0
@@ -1118,7 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f32f815a67c7a51468fdc0afee00e96d
+      spriteID: 924fd43a3b28483429027198d058be54
       vertices: []
       indices: 
       edges: []
@@ -1128,7 +194,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 276
-        y: 35
+        y: 75
         width: 8
         height: 9
       alignment: 0
@@ -1138,7 +204,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 539b32fa6c3617b45ac722a23128f52c
+      spriteID: 3f3c23fbcae271045868f7a8cd883e1b
       vertices: []
       indices: 
       edges: []
@@ -1148,7 +214,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 293
-        y: 37
+        y: 77
         width: 6
         height: 6
       alignment: 0
@@ -1158,17 +224,37 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b15c070aab0852049b61250d254e3854
+      spriteID: fb28a3f765307d4498bead58c6ab9422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plane_wall
+      name: armor
       rect:
         serializedVersion: 2
-        x: 80
-        y: 82
+        x: 306
+        y: 72
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabcb4cdcf4b4404db84080f9fe79ca8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_idle
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 74
         width: 16
         height: 14
       alignment: 0
@@ -1178,18 +264,318 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5d2ac92b404a7d4490828ac12c6996c
+      spriteID: 14c4be2ac86cb7341b637a9d3542fd98
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dungeon_sheet_0
+      name: door_open_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 114
-        width: 4
+        x: 80
+        y: 74
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5cd0ca11dfe7e4e80bd7fbe0abe6bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_open_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 74
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf920f00d256f0f4f928ed03b25f985b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_open_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 74
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3948c3b5ccd6e8f4782d81f4c8f20726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_gate_open_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 41
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2427d88c5c9a83f4daef2efa7e2b0fcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_gate_open_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 41
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2625388478c2e3c4fb64c2d19d236664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_gate_open_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 41
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27181d40f4d0f844b6c1e81df07e16f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_gate_open_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 41
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9086c37cbb0d44f8a61d8045784a6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_gate_idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5a847cc462a8a49a21be17b6c1168c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_gate2_idle
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea255cac3560fe4cb3efe0525c17693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_gate2_open_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 7
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300dc8f30ad2afd43a1c5c69eacbdf7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_gate2_open_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 7
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec07aebfe918c241ae9759dc8f8fc83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_gate2_open_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 7
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab47a54bbd83cbe46afae5262442af2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_gate2_open_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 7
+        width: 48
+        height: 22
+      alignment: 9
+      pivot: {x: 0.50560474, y: 0.512228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ba1db885b409647ab06553739a30f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_front_wall
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 105
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3806a76a1f4ea6b4cb65b5e1eaf3859f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golf
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a462ce9edf8e7c144a128d8416c7ad0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right_bottum_corner
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 141
+        width: 8
         height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1198,7 +584,187 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab4a4cd55cb4b684d81c1aaca652d0f2
+      spriteID: 434a826274dad77428c7c5842cb43224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_bottum_corner
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 141
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d380632fd23a2941b9a3e834d9aea96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_back_wall_to_hole
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 152
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feeebd23ba4840f4fbcc0cec34d0894a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_back_wall_to_hole
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 152
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21434b62c796e6a4ba1c84f55f551f65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_back_wall
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 104
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61aa2ee4fe3041d4e9904ae7cb256e58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_back_wall
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 141
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1047bdf55ccb30e478ce04e9f71aeac0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_front_wall_to_hole
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 193
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac064ff932fce54a86e468fd68e93c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_leftSide_wall_to_hole
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 3
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2869a730c529b7441b74bc1b33f4126d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_leftSide_wall_to_hole
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 183
+        width: 3
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d8f29efb0317b4d80a7a0dc656e7ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_rightSide_wall_to_hole
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 156
+        width: 3
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b11ca5af234cb4e86245d16a1d588b
       vertices: []
       indices: 
       edges: []
@@ -1208,7 +774,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 34
+        y: 74
         width: 16
         height: 14
       alignment: 0
@@ -1218,87 +784,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5432a7e5198d6541a5c44f277529039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dungeon_sheet_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 34
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a687cbe2dc2273d4d8e87316d1e8f73d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dungeon_sheet_3
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 34
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52d0f69b0bff43c45aabcbdcb39f8453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dungeon_sheet_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 34
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b70328560c1080439a001cbde1e8489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stone_with_sword
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 51
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 618a9bda234d7e844ba022a0c3cd94ce
+      spriteID: a6ec2e3204137e641b532be53ff4d9ba
       vertices: []
       indices: 
       edges: []
@@ -1308,7 +794,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 60
-        y: 149
+        y: 189
         width: 8
         height: 5
       alignment: 0
@@ -1318,7 +804,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18f427c0894e6204ab160bd854838ac9
+      spriteID: 8a4c9aca5175efc42bc698867850aad2
       vertices: []
       indices: 
       edges: []
@@ -1328,17 +814,237 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 52
-        y: 149
+        y: 189
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3f4ab677ae0f1442927ed4b454ae622
+      spriteID: 6227f53a43aa7fc4dbb4b0e65b9e7589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_wall
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 169
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5773d923fa5aea548a50774ada8db036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_bottum_corner_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 137
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e293e9023c5a21346b86d54c918cee9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_long_wall_and_piller
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 120
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec456d6396a2074e8ced9be5314ca6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_top_corner_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 170
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca9d45e1adcb5b489bd5865d816cb7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right_bottum_corner_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 137
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef94a9daab722a48a5f866518f60d7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right_long_wall_and_piller
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 120
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708aad14c52b9854eb629a6ae4075959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right_top_corner_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 170
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301d70b2e477a6a45b5827fcad21113f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_rightSide_wall_to_hole
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 184
+        width: 3
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f55f2770ff6101488dae63e3cb6f0c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_left_corner
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 161
+        width: 12
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfbd43a4fff8744baa329703dc5fbe9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_right_corner
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 161
+        width: 11
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b736f55cb0278f4595ddca7715ff157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_with_sword
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 91
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b3ea4cc282ab34aa77a8fb5af42814
       vertices: []
       indices: 
       edges: []
@@ -1346,7 +1052,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 432811b0a0f7e14429378ec30241f1bd
+    spriteID: 6a9591a7786f49f47bad135bc04acc1d
     vertices: []
     indices: 
     edges: []
