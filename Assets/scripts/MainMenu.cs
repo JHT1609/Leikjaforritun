@@ -10,11 +10,14 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+<<<<<<< HEAD:Assets/scripts/MainMenu.cs
     public void Settings ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+=======
+>>>>>>> 2ceeffda8831147ae0f254386acaed9f0db52e4a:Assets/MainMenu.cs
     public void QuitGame ()
     {
         Application.Quit();
