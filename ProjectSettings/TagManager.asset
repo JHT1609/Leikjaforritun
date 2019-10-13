@@ -7,6 +7,8 @@ TagManager:
   - golf
   - big_gate
   - stone_wtih_sword
+  - wall
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -16,8 +18,8 @@ TagManager:
   - UI
   - 
   - 
+  - Enemy
   - ground
-  - 
   - 
   - wall
   - 
