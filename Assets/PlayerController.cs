@@ -11,12 +11,14 @@ public class PlayerController : MonoBehaviour
     public float movementSpeed;
 
     public Rigidbody2D rb;
+    public Animator animator;
 
     // Update is called once per frame
     void Update()
     {
         ProcessInputs();
         Move();
+        Animate();
     }
 
     void ProcessInputs() {
@@ -28,6 +30,17 @@ public class PlayerController : MonoBehaviour
     void Move()
     {
         rb.velocity = movementDirection * movementSpeed * MOVEMENT_BASE_SPEED;
+    }
+
+    void Animate()
+    {
+        if (movementDirection != Vector2.zero)
+        {
+            animator.SetFloat("Horizontal", movementDirection.x);
+            animator.SetFloat("Vertical", movementDirection.y);
+        }
+        
+        animator.SetFloat("Speed", movementSpeed);
     }
 
 }

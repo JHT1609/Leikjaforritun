@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6713524138774582563}
   - component: {fileID: 6713524138774582588}
   - component: {fileID: 6713524138774582561}
-  - component: {fileID: 6713524138774582560}
   - component: {fileID: 6713524138774582567}
+  - component: {fileID: 6713524138774582560}
   m_Layer: 0
   m_Name: big_gate_idle
   m_TagString: big_gate
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 60
+  m_SortingOrder: 18
   m_Sprite: {fileID: 21300028, guid: b43b5550d9b3bea4ba5c48b73062641a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -115,7 +115,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.82}
+  m_Offset: {x: 0, y: -0.8}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -128,21 +128,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.9375, y: 2.97}
   m_EdgeRadius: 0
---- !u!114 &6713524138774582560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6713524138774582589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e5818ccf6975a241967431b114be347, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  index: 0
-  levelName: level1
-  animator: {fileID: 6713524138774582588}
 --- !u!61 &6713524138774582567
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -169,3 +154,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.9375, y: 0.86}
   m_EdgeRadius: 0
+--- !u!114 &6713524138774582560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6713524138774582589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e5818ccf6975a241967431b114be347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 0
+  levelName: level1
+  animator: {fileID: 6713524138774582588}
