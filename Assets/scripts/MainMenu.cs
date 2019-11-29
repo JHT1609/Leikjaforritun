@@ -5,19 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    // Hér er verið að skoða hvað spilarin vil gera hvort hann vil byrja leikin fara í settings eða bara slökva á leiknum
     public void PlayGame ()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(1);
     }
 
-<<<<<<< HEAD:Assets/scripts/MainMenu.cs
     public void Settings ()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(5);
     }
 
-=======
->>>>>>> 2ceeffda8831147ae0f254386acaed9f0db52e4a:Assets/MainMenu.cs
     public void QuitGame ()
     {
         Application.Quit();

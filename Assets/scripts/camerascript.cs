@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class camerascript : MonoBehaviour
 {
+    /*þetta allt er til að fá mynda vélina til að elta playerinn*/
+    [SerializeField]
+    public GameObject Player;
 
     [SerializeField]
-    GameObject Player;
+    public float timeOffset;
 
     [SerializeField]
-    float timeOffset;
-
-    [SerializeField]
-    Vector2 posOffset;
+    public Vector2 posOffset;
 
     // Start is called before the first frame update
     void Start()

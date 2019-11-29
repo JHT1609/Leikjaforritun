@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/*refrence https://www.youtube.com/watch?v=kWhOMJMihC0*/
+
 public class PlayerController : MonoBehaviour
 {
     public float MOVEMENT_BASE_SPEED = 1.0f;
@@ -17,13 +19,27 @@ public class PlayerController : MonoBehaviour
     public Text Health;
     public GameObject loseLvlUI;
     private int count;
+    public GameObject crossHair;
     public GameObject arrowPrefab;
+
+    public int damageB1;
+    public int damageB2;
+    public int damageB3;
 
     public Vector2 movementDirection;
     public float movementSpeed;
 
     public Rigidbody2D rb;
     public Animator animator;
+
+    private Rigidbody2D myrigidbody2D;
+
+    private Vector3 mousePosition;
+    private Vector2 crosshairPos;
+    private Vector2 transform2D;
+    private Quaternion arrowRotation;
+
+    public GameObject bigMap;
 
     private void Awake()
     {
@@ -32,11 +48,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        
-
-        SetCountText();
-        loseText.text = "";
-
         ProcessInputs();
         Move();
         Animate();
@@ -44,11 +55,39 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButton("Fire1"))
+
+        //crossHair.transform.position = Input.mousePosition.x;
+        mousePosition = Input.mousePosition;
+        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+
+        crosshairPos.x = mousePosition.x;
+        crosshairPos.y = mousePosition.y;
+
+        crossHair.transform.position = crosshairPos;
+
+        transform2D.x = transform.position.x;
+        transform2D.y = transform.position.y;
+
+        if (Input.GetButtonDown("Fire1"))
         {
-            GameObject arrow = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
-            arrow.GetComponent<Rigidbody2D>().velocity = new Vector2(5.0f, 0.0f);
+            
+            arrowRotation = Quaternion.FromToRotation(Vector2.right, crosshairPos - transform2D);
+            GameObject arrow = Instantiate(arrowPrefab, transform.position, arrowRotation);
+            arrow.GetComponent<Rigidbody2D>().AddRelativeForce(new Vector2(250f, 0));
+            Destroy(arrow, 10.0f);
         }
+
+        if (Input.GetKeyDown("m"))
+        {
+            bigMap.SetActive(true);
+        }
+        else if (Input.GetKeyUp("m"))
+        {
+            bigMap.SetActive(false);
+        }
+
+        SetCountText();
+        loseText.text = "You Lose :(";
     }
 
     void ProcessInputs() {
@@ -75,22 +114,61 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        // Hér er verið að skoða hvað hver óvinur á að meiða mikið
         if (other.gameObject.CompareTag("Enemy"))
         {
-            print("HIT!");
-            count = count - 50;
-            health -= 50;
+            count = count - 5;
+            health -= 5;
             SetCountText();
-            Debug.Log("damage from enemy");
+        }
+        else if (other.gameObject.CompareTag("Boss1"))
+        {
+            count = count - damageB1;
+            health -= damageB1;
+            SetCountText();
+        }
+        else if (other.gameObject.CompareTag("Boss2"))
+        {
+            count = count - damageB2;
+            health -= damageB2;
+            SetCountText();
+        }
+        else if (other.gameObject.CompareTag("Boss3"))
+        {
+            count = count - damageB3;
+            health -= damageB3;
+            SetCountText();
+        }
+        // ------------------------------------
+
+        if (other.gameObject.tag == "Euphoria")
+        {
+            Destroy(other.gameObject);
+            MOVEMENT_BASE_SPEED = 6.5f;
+            health = 200;
+            StartCoroutine(ResetPower());
         }
     }
     void SetCountText()
     {
-        Health.text = "Health: " + count.ToString();
-        if (count >= 0)
+        Health.text = "Health: " + health;
+        if (health <= 0)
         {
             loseLvlUI.SetActive(true);
             loseText.text = "You Lose :(";
+            gameObject.SetActive(false);
         }
+    }
+    void TakeDamage(int damage)
+    {
+        health -= damage;
+        Debug.Log("damage");
+        print("HIT!");
+    }
+    private IEnumerator ResetPower()
+    {
+        yield return new WaitForSeconds(10);
+        MOVEMENT_BASE_SPEED = 4.0f;
+        health = 100;
     }
 }

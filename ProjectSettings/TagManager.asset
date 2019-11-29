@@ -9,6 +9,14 @@ TagManager:
   - stone_wtih_sword
   - wall
   - Enemy
+  - minimap
+  - bigmap
+  - GameManager
+  - Euphoria
+  - exitGate
+  - Boss1
+  - Boss2
+  - Boss3
   layers:
   - Default
   - TransparentFX
@@ -18,16 +26,17 @@ TagManager:
   - UI
   - 
   - 
+  - minimap
   - Enemy
   - ground
-  - 
-  - wall
-  - 
-  - 
-  - 
-  - 
-  - 
   - armor and stone
+  - minimapIcon
+  - EnemyIcon
+  - wall
+  - Bigmap
+  - 
+  - 
+  - 
   - door
   - 
   - 
@@ -37,11 +46,10 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - mrTwigIcon
+  - mrTwig
   - player
+  - Weapon
   m_SortingLayers:
   - name: Default
     uniqueID: 0
