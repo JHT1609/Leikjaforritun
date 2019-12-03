@@ -85,10 +85,11 @@ a:hover
 		text-align: center;
 	}
 
-	.button:hover
+	.button-a:hover
 	{
 		background: #167cb2;
 		color: #FFF !important;
+		border-radius: 4px;
 	}
 
 	.button-alt
