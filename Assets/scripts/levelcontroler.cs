@@ -9,23 +9,9 @@ public class levelcontroler : MonoBehaviour
     public string levelName;
     public Animator animator;
 
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        Debug.Log(Input.GetKeyDown("e"));
-        if ((other.CompareTag("Player")) && (Input.GetKeyDown("e")))
-        {
-            
-                //Loading level with build index
-                SceneManager.LoadScene(index);
-
-                //Loading level with build name
-                SceneManager.LoadScene(levelName);
-            
-        }
-    }
+    private bool onDoor = false;
 
     // Start is called before the first frame update
-
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -34,47 +20,35 @@ public class levelcontroler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /* hér er verið að skoða hvort maður ýtti á "e" og ef það er þannig þá er sent mann á levelið sem er búið að selecta*/
+        if ((onDoor == true) && (Input.GetKeyDown("e")))
+        {
 
+            //Loading level with build index
+            SceneManager.LoadScene(index);
+
+            //Loading level with build name
+            SceneManager.LoadScene(levelName);
+
+        }
     }
-
+    /* hér er kveikt á animationi*/ 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.gameObject.tag == "Player")
         {
-            animator.Play("big_gate_open");
-            animator.SetBool("OpenGate", true);
-            Debug.Log("open gate");
-        }
-        if (other.CompareTag("Player"))
-        {
-            animator.Play("hruð_opnar");
             animator.SetBool("HurdOpnar", true);
-            Debug.Log("open door");
-        }
-        if (other.CompareTag("Player"))
-        {
-            animator.Play("big_gate_no_background_open");
-            animator.SetBool("OpenGate2", true);
-            Debug.Log("gate2 opnar");
+            onDoor = true;
         }
 
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag != "Enemy")
+        if (other.gameObject.tag == "Player")
         {
-            animator.Play("big_gate_close");
-            animator.SetBool("OpenGate", false);
-            Debug.Log("close gate");
-
-            animator.Play("hurð_lokar");
             animator.SetBool("HurdOpnar", false);
-            Debug.Log("close door");
-
-            animator.Play("big_gate_no_background_close");
-            animator.SetBool("OpenGate2", false);
-            Debug.Log("gate2 close");
+            onDoor = false;
         }
     }
 

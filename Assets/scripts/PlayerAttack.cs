@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
+    private GameObject Arrow;
     private float timeBtwAttack;
     public float startTimeBtwAttack;
 
@@ -16,17 +17,17 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(timeBtwAttack <= 0) {
+        if(timeBtwAttack <= 0) { //finnur hvort hægt er að skjóta
             // gerir árás
             if (Input.GetKey(KeyCode.Space)) {
-                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
+                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);  //finnur þegar overlap er milli örva og enemy
                 for (int i = 0; i < enemiesToDamage.Length; i++) {
-                    enemiesToDamage[i].GetComponent<Enemy>().health -= damage;
+                    enemiesToDamage[i].GetComponent<Enemy>().health -= damage;  //tekur enemy health
                 }
             }
             timeBtwAttack = startTimeBtwAttack;
         }else {
-            timeBtwAttack -= Time.deltaTime;
+            timeBtwAttack -= Time.deltaTime;    //bilið milli skota
         }
     }
     private void OnDrawGizmosSelected()

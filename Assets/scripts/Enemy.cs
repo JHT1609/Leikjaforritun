@@ -2,23 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/* refrenc https://www.youtube.com/watch?v=1QfxdUpVh5I */
+/* refrence https://www.youtube.com/watch?v=1QfxdUpVh5I */
 
 public class Enemy : MonoBehaviour
 {
     private Transform target;
+    private Rigidbody2D myrigidbody2D;
     public float speed;
     public int health;
     private float dazedTime;
-    public float startDazedTime;
+    public int damage;
+    public float thrust;
+
+    private Rigidbody2D rb;
     
-    /*enemy attack does not work*/
 
     // private Animator anim;
     public GameObject bloodEffect;
     public PlayerController player;
-    private BoxCollider2D collider;
 
+    // hér er verið að leta af target sem er playerinn
     public Transform Target
     {
         get
@@ -35,10 +38,7 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GetComponent<PlayerController>();
-        collider = GetComponent<BoxCollider2D>();
-        /*anim = GetComponent<Animator>();
-          anim.SetBool("isRunning", true);*/ 
+        
     }
 
     // Update is called once per frame
@@ -46,35 +46,25 @@ public class Enemy : MonoBehaviour
     {
         FollowTarget();
 
-        if (dazedTime <= 0)
-        {
-            speed = 1;
-        }
-        else
-        {
-            speed = 0;
-            dazedTime -= Time.deltaTime;
-        }
-
+        // hér er verið að skoða hvort enemyin á að deyja eða ekki
         if (health <= 0) {
             Destroy(gameObject);
         }
     }
 
-    void TakeDamage(int damage)
+    // hér er verið að skoða hvort enemy á að meiða playerinn
+    void OnTriggerEnter2D(Collider2D other)
     {
-        dazedTime = startDazedTime;
-        Instantiate(bloodEffect, transform.position, Quaternion.identity);
-        health -= damage;
-        Debug.Log("damage");
+        if (other.tag == "Player") other.GetComponent<Enemy>().health -= damage;
     }
 
-
+    // hérna er skoðað hvort playerinn er inn í range sem er með collider og ef playerinn er í trigger colliderinum á fer hann í áttina að playerinnum
     private void FollowTarget()
     {
-        if(target != null)
+         if(target != null)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            
         }
     }
 }
